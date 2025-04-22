@@ -7,9 +7,9 @@ promedio = suma / 3
 
 print("-"* 25)
 
-print(f"""Calificación 1: {calificacion1}
-Calificación 2: {calificacion2}
-Calificación 3: {calificacion3}
-Promedio {promedio:.0f} """)
+print(f"""Calificación 1: {calificacion1:>3}
+Calificación 2: {calificacion2:>3}
+Calificación 3: {calificacion3:>3}
+{"Promedio: ":<15} {promedio:>3.0f} """)
 
 print("-" * 25)
